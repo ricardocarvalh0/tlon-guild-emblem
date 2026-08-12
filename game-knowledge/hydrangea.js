@@ -1,0 +1,71 @@
+const stats = [{
+    companionshipLvl: 1,
+    lvl: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 1,
+    CP: 4000,
+    ATK: 180,
+    HP: 1700,
+    DEF: 250
+}, {
+    companionshipLvl: 1,
+    lvl: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 2,
+    CP: 6900,
+    ATK: 324,
+    HP: 3060,
+    DEF: 450
+}, {
+    companionshipLvl: 1,
+    lvl: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 3,
+    CP: 10395,
+    ATK: 504,
+    HP: 4760,
+    DEF: 700
+}, {
+    companionshipLvl: 1,
+    lvl: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 4,
+    CP: 14500,
+    ATK: 720,
+    HP: 6800,
+    DEF: 1000
+}, {
+    companionshipLvl: 1,
+    lvl: 2,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 4,
+    CP: 14524,
+    ATK: 721,
+    HP: 6817,
+    DEF: 1002
+}, {
+    companionshipLvl: 1,
+    lvl: 4,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 4,
+    CP: 14557,
+    ATK: 723,
+    HP: 6834,
+    DEF: 1005
+}, {
+    companionshipLvl: 1,
+    lvl: 5,
+    maxLvl: 80,
+    growth_rate: 100,
+    stars: 4,
+    CP: 14571,
+    ATK: 724,
+    HP: 6842,
+    DEF: 1006
+}]

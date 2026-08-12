@@ -1,0 +1,226 @@
+import type { GuildEmblemEffect } from "../types/guild";
+
+/**
+ * Transcribed directly from `game-knowledge/guild/emblem-effects.json` (the user's
+ * source file - read-only, not modified; see game-knowledge.md's "Full Guild Emblem
+ * catalog" section for the full write-up this was built from). The source file also
+ * contains trailing scratch numbers after its JSON array closes (the user's own manual
+ * cross-check of the Guild Ability leveling formula) - those are NOT part of this
+ * catalog and are intentionally excluded here.
+ */
+export const GUILD_EMBLEM_EFFECTS: GuildEmblemEffect[] = [
+  {
+    id: "atk",
+    name: "ATK",
+    color: "Orange",
+    threshold: { orange: 5, blue: 2, green: 2 },
+    description: "+480",
+    summary: "ATK +480",
+  },
+  {
+    id: "abnormal-mastery",
+    name: "Abnormal Mastery",
+    color: "Orange",
+    threshold: { orange: 5, blue: 5, green: 5 },
+    description: "+1.5%",
+    summary: "Abnormal Mastery +1.5%",
+  },
+  {
+    id: "holy-spirit-shield",
+    name: "Holy Spirit Shield",
+    color: "Orange",
+    threshold: { orange: 7, blue: 2, green: 2 },
+    description:
+      "Can be triggered in combat state and obtains a shield equal to 4.09% of HP, 10 seconds (CD: 60s)",
+    summary: "Obtains shield with 4.09% HP. CD 60s",
+  },
+  {
+    id: "break",
+    name: "Break",
+    color: "Orange",
+    threshold: { orange: 8, blue: 3, green: 3 },
+    description: "+240",
+    summary: "Break +240",
+  },
+  {
+    id: "crit",
+    name: "Crit",
+    color: "Orange",
+    threshold: { orange: 10, blue: 2, green: 2 },
+    description: "+240",
+    summary: "Crit +240",
+  },
+  {
+    id: "dmg-increase",
+    name: "DMG Increase",
+    color: "Orange",
+    threshold: { orange: 13, blue: 5, green: 3 },
+    description: "+1.5%",
+    summary: "DMG Increase +1.5%",
+  },
+  {
+    id: "pierce-rate",
+    name: "Pierce Rate",
+    color: "Orange",
+    threshold: { orange: 13, blue: 3, green: 5 },
+    description: "+1.5%",
+    summary: "Pierce Rate +1.5%",
+  },
+  {
+    id: "survival-instinct",
+    name: "Survival Instinct",
+    color: "Orange",
+    threshold: { orange: 16, blue: 0, green: 6 },
+    description:
+      "Triggers upon taking damage when HP is below 50%: Tenacity+4.44%, Block+4.44%, DEF+8.88%, 10 seconds. (CD: 20s)",
+    summary: "Below 50% HP: Tenacity+4.44%, Block+4.44%, DEF+8.88% for 10s. CD 20s",
+  },
+  {
+    id: "crisis-warning",
+    name: "Crisis Warning",
+    color: "Orange",
+    threshold: { orange: 20, blue: 5, green: 5 },
+    description:
+      "When taking damage, if the damage is greater than 6% of the player's max HP, Block will definitely be triggered, and the Damage Reduction efficiency of the Block will be increased by 15.2%. (CD: 20s)",
+    summary: "Hit for >6% max HP: guaranteed Block, +15.2% Block dmg reduction. CD 20s",
+  },
+  {
+    id: "def",
+    name: "DEF",
+    color: "Blue",
+    threshold: { orange: 0, blue: 5, green: 3 },
+    description: "+480",
+    summary: "DEF +480",
+  },
+  {
+    id: "one-heart",
+    name: "One Heart",
+    color: "Blue",
+    threshold: { orange: 5, blue: 5, green: 5 },
+    description: "+1.5%",
+    summary: "One Heart +1.5%",
+  },
+  {
+    id: "abnormal-resistance",
+    name: "Abnormal Resistance",
+    color: "Blue",
+    threshold: { orange: 5, blue: 5, green: 5 },
+    description: "+1.5%",
+    summary: "Abnormal Resistance +1.5%",
+  },
+  {
+    id: "wind-following-shadow",
+    name: "Wind-following Shadow",
+    color: "Blue",
+    threshold: { orange: 2, blue: 7, green: 2 },
+    description: "After using the Dodge skill, damage dealt +2.02%, damage taken -3.03%, 3 seconds",
+    summary: "After Dodge: dmg dealt +2.02%, dmg taken -3.03% for 3s",
+  },
+  {
+    id: "block",
+    name: "Block",
+    color: "Blue",
+    threshold: { orange: 0, blue: 10, green: 2 },
+    description: "+240",
+    summary: "Block +240",
+  },
+  {
+    id: "protection-rate",
+    name: "Protection Rate",
+    color: "Blue",
+    threshold: { orange: 0, blue: 13, green: 6 },
+    description: "+1.5%",
+    summary: "Protection Rate +1.5%",
+  },
+  {
+    id: "block-damage-reduction",
+    name: "Block Damage Reduction",
+    color: "Blue",
+    threshold: { orange: 5, blue: 15, green: 5 },
+    description: "+4.5%",
+    summary: "Block Damage Reduction +4.5%",
+  },
+  {
+    id: "good-luck-follows",
+    name: "Good luck follows",
+    color: "Blue",
+    threshold: { orange: 6, blue: 16, green: 0 },
+    description:
+      "Triggers every 15s in combat, and gets 1 of the following effects randomly: ATK+5.44% for 6s, DEF+10.88% for 6s, 6% MaxHP heal.",
+    summary: "ATK+5.44% or DEF+10.88% or 6% MaxHP heal for 6s. CD 15s",
+  },
+  {
+    id: "integrated-offense-and-defense",
+    name: "Integrated Offense and Defense",
+    color: "Blue",
+    threshold: { orange: 5, blue: 20, green: 5 },
+    description:
+      "When HP > 50%, damage taken by the character -8.19%. When HP >= 50%, damage dealt by the character +5.46%",
+    summary: "HP>50%: dmg taken -8.19%, dmg dealt +5.46%",
+  },
+  {
+    id: "hp",
+    name: "HP",
+    color: "Green",
+    threshold: { orange: 0, blue: 3, green: 5 },
+    description: "+4800",
+    summary: "HP +4800",
+  },
+  {
+    id: "break-free",
+    name: "Break Free",
+    color: "Green",
+    threshold: { orange: 5, blue: 5, green: 5 },
+    description: "+1.5%",
+    summary: "Break Free +1.5%",
+  },
+  {
+    id: "flower-barrier",
+    name: "Flower Barrier",
+    color: "Green",
+    threshold: { orange: 2, blue: 2, green: 7 },
+    description: "Flower Fairy damage taken reduced by 3.03%",
+    summary: "Flower fairy dmg taken -3.03%",
+  },
+  {
+    id: "tenacity",
+    name: "Tenacity",
+    color: "Green",
+    threshold: { orange: 0, blue: 2, green: 10 },
+    description: "+240",
+    summary: "Tenacity +240",
+  },
+  {
+    id: "dmg-reduction",
+    name: "DMG Reduction",
+    color: "Green",
+    threshold: { orange: 0, blue: 6, green: 13 },
+    description: "+1.5%",
+    summary: "DMG Reduction +1.5%",
+  },
+  {
+    id: "block-recovery",
+    name: "Block Recovery",
+    color: "Green",
+    threshold: { orange: 5, blue: 5, green: 15 },
+    description: "+4.5%",
+    summary: "Block Recovery +4.5%",
+  },
+  {
+    id: "full-moon",
+    name: "Full Moon",
+    color: "Green",
+    threshold: { orange: 0, blue: 6, green: 16 },
+    description:
+      "For every 10% HP remaining, obtain 0.56% Damage Reduction; when HP > 80%, obtain additional 3% Damage reduction",
+    summary: "Per 10% HP left: +0.56% Dmg Reduction; HP>80%: +3% more",
+  },
+  {
+    id: "impeccable",
+    name: "Impeccable",
+    color: "Green",
+    threshold: { orange: 5, blue: 5, green: 20 },
+    description: "Crit damage taken is reduced by 20.48%",
+    summary: "Crit dmg taken -20.48%",
+  },
+];

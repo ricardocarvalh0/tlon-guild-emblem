@@ -1,0 +1,197 @@
+/*
+ * "Quartermaster's Ledger" identity, scoped to this screen only via .guild-ledger -
+ * deliberately not written into the app-wide tokens in index.css, since a future
+ * fairy-focused screen may want its own subject-appropriate palette rather than
+ * inheriting a guild/ledger accounting mood. Follows index.css's own convention of
+ * "light values as the default, dark values inside a prefers-color-scheme override".
+ */
+.guild-ledger {
+  --ledger-bg: #e7e5ea;
+  --ledger-surface: #f3f1f5;
+  --ledger-surface-raised: #fbfaf9;
+  --ledger-border: #cfccd6;
+  --ledger-text: #221f2b;
+  --ledger-text-muted: #6b6478;
+  --ledger-gold: #96721e;
+  --ledger-gold-bg: rgba(150, 114, 30, 0.1);
+  /* A warm brass-plate tone for the sticky summary bar - deliberately a distinct hue,
+     not just a lighter/darker gray, so it reads as "the ledger's nameplate" rather
+     than another card. */
+  --ledger-plate-bg: #f2e9d5;
+  --ledger-plate-border: rgba(150, 114, 30, 0.35);
+  /* Declared here (not just inline via JS) so static CSS tooling can resolve them -
+     individual selected cards/summary rows override these per-element via inline
+     style (see GuildEmblemPlanner.tsx), same effect, but statically analyzable. */
+  --ledger-card-color: var(--ledger-gold);
+  --ledger-row-color: var(--ledger-gold);
+
+  background: var(--ledger-bg);
+  color: var(--ledger-text);
+  min-height: 100svh;
+}
+
+@media (prefers-color-scheme: dark) {
+  .guild-ledger {
+    --ledger-bg: #15131b;
+    --ledger-surface: #1e1b26;
+    --ledger-surface-raised: #241f2e;
+    --ledger-border: #33303d;
+    --ledger-text: #efe9dd;
+    --ledger-text-muted: #9c96a8;
+    --ledger-gold: #c9a24b;
+    --ledger-gold-bg: rgba(201, 162, 75, 0.16);
+    --ledger-plate-bg: #211a12;
+    --ledger-plate-border: rgba(201, 162, 75, 0.35);
+  }
+}
+
+/* Signature element: 30 tally cells, one per Guild Ability slot, filling left-to-right
+   in Orange -> Blue -> Green order as effects are picked. A literal, legible rendering
+   of the actual constraint (a fixed 30-slot budget), not a generic progress bar. */
+.ledger-tally {
+  display: grid;
+  grid-template-columns: repeat(30, minmax(0, 1fr));
+  gap: 3px;
+  height: 16px;
+}
+
+.ledger-tally__cell {
+  border-radius: 2px;
+  border: 1px solid var(--ledger-border);
+  background: transparent;
+  transition: background-color 200ms ease, border-color 200ms ease;
+}
+
+.ledger-tally__cell--orange {
+  background: var(--status-orange);
+  border-color: var(--status-orange);
+}
+.ledger-tally__cell--blue {
+  background: var(--status-blue);
+  border-color: var(--status-blue);
+}
+.ledger-tally__cell--green {
+  background: var(--status-green);
+  border-color: var(--status-green);
+}
+
+.ledger-card {
+  border-radius: 10px;
+  border: 1px solid var(--ledger-border);
+  background: var(--ledger-surface);
+  transition:
+    opacity 150ms ease,
+    border-color 150ms ease,
+    background-color 150ms ease,
+    filter 150ms ease;
+  position: relative;
+}
+
+.ledger-card--selected {
+  border-color: var(--ledger-card-color, var(--ledger-gold));
+  border-left-width: 4px;
+  background: color-mix(in srgb, var(--ledger-card-color, var(--ledger-gold)) 12%, var(--ledger-surface));
+}
+
+.ledger-card--incompatible {
+  opacity: 0.5;
+  filter: grayscale(0.7);
+}
+
+.ledger-card__action {
+  border-radius: 10px;
+}
+
+.ledger-card__action:focus-visible {
+  outline: 2px solid var(--ledger-gold);
+  outline-offset: 2px;
+}
+
+.ledger-card__badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1408;
+  background: var(--ledger-gold);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.ledger-card__lock {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ledger-text-muted);
+  background: var(--ledger-surface-raised);
+  border: 1px solid var(--ledger-border);
+}
+
+/* One line per selected effect in the "your picks" summary - tinted by the effect's own
+   emblem color (--ledger-row-color, set inline per row) so the whole selection reads at
+   a glance without hovering anything. */
+.ledger-summary-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 10px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--ledger-row-color, var(--ledger-gold)) 10%, var(--ledger-plate-bg));
+  transition: background-color 150ms ease;
+}
+
+.ledger-summary-row__dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ledger-row-color, var(--ledger-gold));
+}
+
+.ledger-summary-row__text {
+  flex: 1 1 auto;
+}
+
+.ledger-summary-row__remove {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ledger-text);
+  background: transparent;
+  border: 1px solid var(--ledger-row-color, var(--ledger-gold));
+  cursor: pointer;
+  transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+}
+
+.ledger-summary-row__remove:hover {
+  color: #1a1408;
+  background: var(--ledger-row-color, var(--ledger-gold));
+  border-color: var(--ledger-row-color, var(--ledger-gold));
+}
+
+.ledger-summary-row__remove:focus-visible {
+  outline: 2px solid var(--ledger-gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ledger-tally__cell,
+  .ledger-card,
+  .ledger-summary-row {
+    transition: none !important;
+  }
+}

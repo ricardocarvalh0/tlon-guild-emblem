@@ -1,0 +1,1062 @@
+[
+  {
+    "id": 1,
+    "name": "Lótus Bingdi",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Group Attack, Aumento de Damage",
+    "level": "400/400",
+    "power": 155142,
+    "basic_attributes": {
+      "pv": 31533,
+      "attack": 21623,
+      "defense": 2252
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Tenacity", "value": 200},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 2,
+    "name": "Lycoris",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Control, DPS",
+    "level": "400/400",
+    "power": 155138,
+    "basic_attributes": {
+      "pv": 90096,
+      "attack": 13514,
+      "defense": 4504
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Crit", "value": 600}
+    }
+  },
+  {
+    "id": 3,
+    "name": "Eritrina",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Group Attack, Redução",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 24480,
+      "attack": 14688,
+      "defense": 1224
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 200},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hortênsia",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Protection, Defence",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 52020,
+      "attack": 5508,
+      "defense": 7650
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 200},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Break", "value": 300},
+      "level_321": {"attribute": "Crit", "value": 600}
+    }
+  },
+  {
+    "id": 5,
+    "name": "Flor-Balão",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Control, Group Attack",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 95550,
+      "attack": 3822,
+      "defense": 3822
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  },
+  {
+    "id": 6,
+    "name": "Rosa Roxburghii",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Individual, Damage Adicional",
+    "level": "400/400",
+    "power": 93911,
+    "basic_attributes": {
+      "pv": 33072,
+      "attack": 10683,
+      "defense": 1272
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1600},
+      "level_161": {"attribute": "Attack", "value": 160},
+      "level_241": {"attribute": "Defence", "value": 160},
+      "level_321": {"attribute": "Break", "value": 480}
+    }
+  },
+  {
+    "id": 7,
+    "name": "Margarida",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Group Attack, Aumento de Damage",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 48960,
+      "attack": 7344,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Break", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ninfeia",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Curadora de Grupo",
+    "level": "400/400",
+    "power": 93913,
+    "basic_attributes": {
+      "pv": 35616,
+      "attack": 9921,
+      "defense": 1780
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 170},
+      "level_161": {"attribute": "Defence", "value": 170},
+      "level_241": {"attribute": "Break", "value": 255},
+      "level_321": {"attribute": "Block", "value": 510}
+    }
+  },
+  {
+    "id": 9,
+    "name": "Camélia",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Group Attack, Socorro",
+    "level": "400/400",
+    "power": 93915,
+    "basic_attributes": {
+      "pv": 39072,
+      "attack": 8870,
+      "defense": 1953
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Tenacity", "value": 170},
+      "level_161": {"attribute": "Block", "value": 170},
+      "level_241": {"attribute": "Crit", "value": 255},
+      "level_321": {"attribute": "Break", "value": 510}
+    }
+  },
+  {
+    "id": 10,
+    "name": "Oenothera",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Defence de Grupo, Redução de Damage",
+    "level": "400/400",
+    "power": 93915,
+    "basic_attributes": {
+      "pv": 61056,
+      "attack": 3052,
+      "defense": 3052
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1700},
+      "level_161": {"attribute": "Break", "value": 170},
+      "level_241": {"attribute": "Crit", "value": 255},
+      "level_321": {"attribute": "Block", "value": 510}
+    }
+  },
+  {
+    "id": 11,
+    "name": "Petúnia",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Group Attack, Defence",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 73440,
+      "attack": 4896,
+      "defense": 7344
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 200},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lótus",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Control, DPS",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 61200,
+      "attack": 6120,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 13,
+    "name": "Jacinto",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Group Attack, DPS",
+    "level": "400/400",
+    "power": 110594,
+    "basic_attributes": {
+      "pv": 52020,
+      "attack": 6120,
+      "defense": 4080
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 14,
+    "name": "Loureiro",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Group Attack, DPS",
+    "level": "400/400",
+    "power": 155242,
+    "basic_attributes": {
+      "pv": 40543,
+      "attack": 16217,
+      "defense": 6757
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 200},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 15,
+    "name": "Viola",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Group Attack, DPS",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 73440,
+      "attack": 4896,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Break", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 16,
+    "name": "Hera",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Restoration, Control",
+    "level": "400/400",
+    "power": 155139,
+    "basic_attributes": {
+      "pv": 67579,
+      "attack": 13515,
+      "defense": 4054
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Attack", "value": 200},
+      "level_241": {"attribute": "Defence", "value": 200},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 17,
+    "name": "Sakura",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Group Attack, DPS",
+    "level": "400/400",
+    "power": 155141,
+    "basic_attributes": {
+      "pv": 54063,
+      "attack": 10812,
+      "defense": 9460
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Break", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 18,
+    "name": "Rosa",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "DPS, Control",
+    "level": "400/400",
+    "power": 110594,
+    "basic_attributes": {
+      "pv": 61200,
+      "attack": 4896,
+      "defense": 6120
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Crit", "value": 600}
+    }
+  },
+  {
+    "id": 19,
+    "name": "Dália",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "DPS, Control",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 48960,
+      "attack": 7344,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Break", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 20,
+    "name": "Amarílis",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "DPS, Restoration",
+    "level": "400/400",
+    "power": 155142,
+    "basic_attributes": {
+      "pv": 108126,
+      "attack": 10812,
+      "defense": 2703
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Crit", "value": 600}
+    }
+  },
+  {
+    "id": 21,
+    "name": "Cravina",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Control, DPS",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 61200,
+      "attack": 6120,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ixora",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "DPS, Damage Adicional",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 73440,
+      "attack": 4896,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 200},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Break", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 23,
+    "name": "Rosmaninho",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Control, DPS",
+    "level": "400/400",
+    "power": 110600,
+    "basic_attributes": {
+      "pv": 85680,
+      "attack": 4080,
+      "defense": 4896
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  },
+  {
+    "id": 24,
+    "name": "Baronesa",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Contínuo, DPS",
+    "level": "400/400",
+    "power": 112745,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Attack", "value": 190},
+      "level_241": {"attribute": "Block", "value": 285},
+      "level_321": {"attribute": "Tenacity", "value": 570}
+    }
+  },
+  {
+    "id": 25,
+    "name": "Dedaleira",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "DPS, Buff",
+    "level": "400/400",
+    "power": 112739,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 190},
+      "level_161": {"attribute": "Crit", "value": 190},
+      "level_241": {"attribute": "Block", "value": 285},
+      "level_321": {"attribute": "Break", "value": 570}
+    }
+  },
+  {
+    "id": 26,
+    "name": "Branquinha",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Aumento de Damage, DPS",
+    "level": "400/400",
+    "power": 158060,
+    "basic_attributes": {
+      "pv": 59136,
+      "attack": 14784,
+      "defense": 7392
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 210},
+      "level_161": {"attribute": "Crit", "value": 210},
+      "level_241": {"attribute": "Break", "value": 315},
+      "level_321": {"attribute": "Tenacity", "value": 630}
+    }
+  },
+  {
+    "id": 27,
+    "name": "Cereja do Inverno",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Explosion, Buff",
+    "level": "400/400",
+    "power": 112741,
+    "basic_attributes": {
+      "pv": 83868,
+      "attack": 4978,
+      "defense": 3733
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Crit", "value": 190},
+      "level_241": {"attribute": "Tenacity", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 28,
+    "name": "Milin",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Buff, Explosion",
+    "level": "400/400",
+    "power": 158058,
+    "basic_attributes": {
+      "pv": 94617,
+      "attack": 7392,
+      "defense": 5913
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2100},
+      "level_161": {"attribute": "Crit", "value": 210},
+      "level_241": {"attribute": "Break", "value": 315},
+      "level_321": {"attribute": "Block", "value": 630}
+    }
+  },
+  {
+    "id": 29,
+    "name": "Rimuru",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Buff, DPS",
+    "level": "400/400",
+    "power": 158061,
+    "basic_attributes": {
+      "pv": 109972,
+      "attack": 7331,
+      "defense": 9164
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2100},
+      "level_161": {"attribute": "Defence", "value": 210},
+      "level_241": {"attribute": "Tenacity", "value": 315},
+      "level_321": {"attribute": "Block", "value": 630}
+    }
+  },
+  {
+    "id": 30,
+    "name": "Diablo",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Help, Control",
+    "level": "400/400",
+    "power": 93913,
+    "basic_attributes": {
+      "pv": 61056,
+      "attack": 6105,
+      "defense": 3052
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 170},
+      "level_161": {"attribute": "Tenacity", "value": 170},
+      "level_241": {"attribute": "Crit", "value": 255},
+      "level_321": {"attribute": "Block", "value": 510}
+    }
+  },
+  {
+    "id": 31,
+    "name": "Edelweiss",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Debuff, Control",
+    "level": "400/400",
+    "power": 112742,
+    "basic_attributes": {
+      "pv": 83868,
+      "attack": 4978,
+      "defense": 3733
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 190},
+      "level_161": {"attribute": "Break", "value": 190},
+      "level_241": {"attribute": "Crit", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 32,
+    "name": "Rosa Azul",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Explosion, Buff",
+    "level": "400/400",
+    "power": 112739,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 190},
+      "level_161": {"attribute": "Tenacity", "value": 190},
+      "level_241": {"attribute": "Block", "value": 285},
+      "level_321": {"attribute": "Break", "value": 570}
+    }
+  },
+  {
+    "id": 33,
+    "name": "Murta",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Control, Debuff",
+    "level": "400/400",
+    "power": 114888,
+    "basic_attributes": {
+      "pv": 75916,
+      "attack": 5061,
+      "defense": 5061
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 34,
+    "name": "Amendoeira",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Sobrevivência, DPS",
+    "level": "400/400",
+    "power": 112742,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Defence", "value": 190},
+      "level_241": {"attribute": "Tenacity", "value": 285},
+      "level_321": {"attribute": "Crit", "value": 570}
+    }
+  },
+  {
+    "id": 35,
+    "name": "Hortênsia das Chamas",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Control, Buff",
+    "level": "400/400",
+    "power": 112742,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 190},
+      "level_161": {"attribute": "Break", "value": 190},
+      "level_241": {"attribute": "Block", "value": 285},
+      "level_321": {"attribute": "Crit", "value": 570}
+    }
+  },
+  {
+    "id": 36,
+    "name": "Tulipa",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "DPS, Buff",
+    "level": "400/400",
+    "power": 112738,
+    "basic_attributes": {
+      "pv": 69890,
+      "attack": 5591,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Block", "value": 190},
+      "level_241": {"attribute": "Break", "value": 285},
+      "level_321": {"attribute": "Tenacity", "value": 570}
+    }
+  },
+  {
+    "id": 37,
+    "name": "Gardênia",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Control, Aumento de Damage",
+    "level": "400/400",
+    "power": 112740,
+    "basic_attributes": {
+      "pv": 93186,
+      "attack": 4978,
+      "defense": 3733
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 190},
+      "level_161": {"attribute": "Tenacity", "value": 190},
+      "level_241": {"attribute": "Crit", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 38,
+    "name": "Orquídea Borboleta",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Sobrevivência, DPS",
+    "level": "400/400",
+    "power": 158057,
+    "basic_attributes": {
+      "pv": 184204,
+      "attack": 7331,
+      "defense": 9164
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2100},
+      "level_161": {"attribute": "Block", "value": 210},
+      "level_241": {"attribute": "Break", "value": 315},
+      "level_321": {"attribute": "Tenacity", "value": 630}
+    }
+  },
+  {
+    "id": 39,
+    "name": "Zínia",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Aumento de Damage, Restrição de Restoration de PV",
+    "level": "400/400",
+    "power": 112746,
+    "basic_attributes": {
+      "pv": 55912,
+      "attack": 6989,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 190},
+      "level_161": {"attribute": "Block", "value": 190},
+      "level_241": {"attribute": "Tenacity", "value": 285},
+      "level_321": {"attribute": "Crit", "value": 570}
+    }
+  },
+  {
+    "id": 40,
+    "name": "Flor-Balão Tranquila",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Monster Attracting, CD",
+    "level": "400/400",
+    "power": 112744,
+    "basic_attributes": {
+      "pv": 55912,
+      "attack": 6989,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 190},
+      "level_161": {"attribute": "Tenacity", "value": 190},
+      "level_241": {"attribute": "Break", "value": 285},
+      "level_321": {"attribute": "Crit", "value": 570}
+    }
+  },
+  {
+    "id": 41,
+    "name": "Shalltear",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Buff, Life Steal",
+    "level": "400/400",
+    "power": 112745,
+    "basic_attributes": {
+      "pv": 55912,
+      "attack": 6989,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Crit", "value": 190},
+      "level_161": {"attribute": "Break", "value": 190},
+      "level_241": {"attribute": "Tenacity", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 42,
+    "name": "Natsu",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "DPS, Explosion",
+    "level": "400/400",
+    "power": 112745,
+    "basic_attributes": {
+      "pv": 55912,
+      "attack": 6989,
+      "defense": 5591
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Break", "value": 190},
+      "level_241": {"attribute": "Crit", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 43,
+    "name": "Wendy",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Help, Control",
+    "level": "400/400",
+    "power": 112744,
+    "basic_attributes": {
+      "pv": 74678,
+      "attack": 4978,
+      "defense": 6223
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 1900},
+      "level_161": {"attribute": "Crit", "value": 190},
+      "level_241": {"attribute": "Break", "value": 285},
+      "level_321": {"attribute": "Block", "value": 570}
+    }
+  },
+  {
+    "id": 44,
+    "name": "Ainz",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Explosion, Break",
+    "level": "400/400",
+    "power": 114891,
+    "basic_attributes": {
+      "pv": 110712,
+      "attack": 4744,
+      "defense": 3163
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  },
+  {
+    "id": 45,
+    "name": "Albedo",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Defence, Buff",
+    "level": "400/400",
+    "power": 160980,
+    "basic_attributes": {
+      "pv": 111830,
+      "attack": 13046,
+      "defense": 3727
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2200},
+      "level_161": {"attribute": "Break", "value": 220},
+      "level_241": {"attribute": "Block", "value": 330},
+      "level_321": {"attribute": "Tenacity", "value": 660}
+    }
+  },
+  {
+    "id": 46,
+    "name": "Erza",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "Buff, Explosion",
+    "level": "400/400",
+    "power": 160984,
+    "basic_attributes": {
+      "pv": 125809,
+      "attack": 8387,
+      "defense": 6989
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 220},
+      "level_161": {"attribute": "Tenacity", "value": 220},
+      "level_241": {"attribute": "Block", "value": 330},
+      "level_321": {"attribute": "Break", "value": 660}
+    }
+  },
+  {
+    "id": 47,
+    "name": "Ave do Paraíso",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Control, Buff",
+    "level": "400/400",
+    "power": 114888,
+    "basic_attributes": {
+      "pv": 66427,
+      "attack": 7591,
+      "defense": 4744
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Crit", "value": 600}
+    }
+  },
+  {
+    "id": 48,
+    "name": "Agente Disciplinar Eritrina",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Buff, DPS",
+    "level": "400/400",
+    "power": 114888,
+    "basic_attributes": {
+      "pv": 113875,
+      "attack": 3795,
+      "defense": 3795
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Block", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 49,
+    "name": "Brilho Primavera - Camélia",
+    "elemental": "Wind",
+    "rarity": "SSR",
+    "type_function": "Control, Damage",
+    "level": "400/400",
+    "power": 114890,
+    "basic_attributes": {
+      "pv": 79080,
+      "attack": 4744,
+      "defense": 6326
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Block", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  },
+  {
+    "id": 50,
+    "name": "Moranguinha",
+    "elemental": "Holy",
+    "rarity": "SSR",
+    "type_function": "DPS, Buff",
+    "level": "400/400",
+    "power": 160986,
+    "basic_attributes": {
+      "pv": 93192,
+      "attack": 6989,
+      "defense": 11649
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 220},
+      "level_161": {"attribute": "Tenacity", "value": 220},
+      "level_241": {"attribute": "Break", "value": 330},
+      "level_321": {"attribute": "Crit", "value": 660}
+    }
+  },
+  {
+    "id": 51,
+    "name": "Rosa Escarlate",
+    "elemental": "Fire",
+    "rarity": "SSR",
+    "type_function": "Buff, Restoration",
+    "level": "400/400",
+    "power": 114888,
+    "basic_attributes": {
+      "pv": 104385,
+      "attack": 3795,
+      "defense": 4744
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "PV", "value": 2000},
+      "level_161": {"attribute": "Break", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Tenacity", "value": 600}
+    }
+  },
+  {
+    "id": 52,
+    "name": "Acorina",
+    "elemental": "Water",
+    "rarity": "SSR",
+    "type_function": "Buff, Explosion",
+    "level": "400/400",
+    "power": 114893,
+    "basic_attributes": {
+      "pv": 75916,
+      "attack": 6326,
+      "defense": 5061
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Attack", "value": 200},
+      "level_161": {"attribute": "Tenacity", "value": 200},
+      "level_241": {"attribute": "Crit", "value": 300},
+      "level_321": {"attribute": "Block", "value": 600}
+    }
+  },
+  {
+    "id": 53,
+    "name": "Boca de Leão",
+    "elemental": "Earth",
+    "rarity": "SSR",
+    "type_function": "Damage, Life Steal",
+    "level": "400/400",
+    "power": 114893,
+    "basic_attributes": {
+      "pv": 94896,
+      "attack": 3163,
+      "defense": 6326
+    },
+    "special_attributes": {
+      "level_81": {"attribute": "Defence", "value": 200},
+      "level_161": {"attribute": "Crit", "value": 200},
+      "level_241": {"attribute": "Tenacity", "value": 300},
+      "level_321": {"attribute": "Break", "value": 600}
+    }
+  }
+]

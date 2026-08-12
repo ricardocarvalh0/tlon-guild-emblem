@@ -1,0 +1,155 @@
+const stats = [{
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 1,
+    CP: 3400,
+    ATK: 402,
+    HP: 1260,
+    DEF: 48
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 2,
+    CP: 3427,
+    ATK: 406,
+    HP: 1273,
+    DEF: 48
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 3,
+    CP: 3440,
+    ATK: 408,
+    HP: 1279,
+    DEF: 48
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 4,
+    CP: 3458,
+    ATK: 410,
+    HP: 1286,
+    DEF: 49
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 5,
+    CP: 3471,
+    ATK: 412,
+    HP: 1292,
+    DEF: 49
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 10,
+    CP: 3548,
+    ATK: 423,
+    HP: 1325,
+    DEF: 50
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 15,
+    CP: 3619,
+    ATK: 433,
+    HP: 1357,
+    DEF: 51
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 20,
+    CP: 3700,
+    ATK: 444,
+    HP: 1390,
+    DEF: 53
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 40,
+    CP: 4000,
+    ATK: 486,
+    HP: 1520,
+    DEF: 58
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 80,
+    growth_rate: 100,
+    lvl: 80,
+    CP: 4600,
+    ATK: 570,
+    HP: 1780,
+    DEF: 68
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 160,
+    growth_rate: 140,
+    lvl: 81,
+    CP: 5415,
+    ATK: 572,
+    HP: 1789,
+    DEF: 68,
+    special_attributes: [
+        { HP: 1600  }
+    ]
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 160,
+    growth_rate: 140,
+    lvl: 160,
+    CP: 7079,
+    ATK: 805,
+    HP: 2508,
+    DEF: 96,
+    special_attributes: [
+        { HP: 1600  }
+    ]
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 240,
+    growth_rate: 200,
+    lvl: 161,
+    CP: 8706,
+    ATK: 809,
+    HP: 2521,
+    DEF: 96,
+    special_attributes: [
+        { HP: 1600  },
+        { Critical: 160 }
+    ]
+}, {
+    companionshipLvl: 1,
+    stars: 1,
+    maxLvl: 240,
+    growth_rate: 200,
+    lvl: 240,
+    CP: 11079,
+    ATK: 1141,
+    HP: 3548,
+    DEF: 136,
+    special_attributes: [
+        { HP: 1600  },
+        { Critical: 160 }
+    ]
+}]
